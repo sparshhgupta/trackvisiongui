@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/trackvisiongui/static/css/main.e962ad88.chunk.css",
-    "main.js": "/trackvisiongui/static/js/main.2b7a4066.chunk.js",
-    "main.js.map": "/trackvisiongui/static/js/main.2b7a4066.chunk.js.map",
+    "main.js": "/trackvisiongui/static/js/main.0fce3b6e.chunk.js",
+    "main.js.map": "/trackvisiongui/static/js/main.0fce3b6e.chunk.js.map",
     "runtime-main.js": "/trackvisiongui/static/js/runtime-main.d1db2d84.js",
     "runtime-main.js.map": "/trackvisiongui/static/js/runtime-main.d1db2d84.js.map",
     "static/css/2.b71989ea.chunk.css": "/trackvisiongui/static/css/2.b71989ea.chunk.css",
-    "static/js/2.18151bcb.chunk.js": "/trackvisiongui/static/js/2.18151bcb.chunk.js",
-    "static/js/2.18151bcb.chunk.js.map": "/trackvisiongui/static/js/2.18151bcb.chunk.js.map",
+    "static/js/2.41db4812.chunk.js": "/trackvisiongui/static/js/2.41db4812.chunk.js",
+    "static/js/2.41db4812.chunk.js.map": "/trackvisiongui/static/js/2.41db4812.chunk.js.map",
     "static/js/3.7820470f.chunk.js": "/trackvisiongui/static/js/3.7820470f.chunk.js",
     "static/js/3.7820470f.chunk.js.map": "/trackvisiongui/static/js/3.7820470f.chunk.js.map",
     "index.html": "/trackvisiongui/index.html",
-    "precache-manifest.31f35bfbcddeee675f450e660cd854b1.js": "/trackvisiongui/precache-manifest.31f35bfbcddeee675f450e660cd854b1.js",
+    "precache-manifest.09849a0d9ac51a89b73c975252046462.js": "/trackvisiongui/precache-manifest.09849a0d9ac51a89b73c975252046462.js",
     "service-worker.js": "/trackvisiongui/service-worker.js",
     "static/css/2.b71989ea.chunk.css.map": "/trackvisiongui/static/css/2.b71989ea.chunk.css.map",
     "static/css/main.e962ad88.chunk.css.map": "/trackvisiongui/static/css/main.e962ad88.chunk.css.map",
-    "static/js/2.18151bcb.chunk.js.LICENSE.txt": "/trackvisiongui/static/js/2.18151bcb.chunk.js.LICENSE.txt"
+    "static/js/2.41db4812.chunk.js.LICENSE.txt": "/trackvisiongui/static/js/2.41db4812.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d1db2d84.js",
     "static/css/2.b71989ea.chunk.css",
-    "static/js/2.18151bcb.chunk.js",
+    "static/js/2.41db4812.chunk.js",
     "static/css/main.e962ad88.chunk.css",
-    "static/js/main.2b7a4066.chunk.js"
+    "static/js/main.0fce3b6e.chunk.js"
   ]
 }
