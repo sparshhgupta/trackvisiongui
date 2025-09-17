@@ -63,7 +63,7 @@ import OutputsPage from './components/OutputsPage';
 import AccessBar from './components/AccessBar';
 import './App.css';
 import { Sun, Moon } from "lucide-react";
-
+import InstallationPage from './components/InstallationPage';
 
 function MainApp() {
   const [csvFile, setCsvFile] = useState(null);
@@ -121,6 +121,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/app" element={<MainApp />} />
         <Route path="/outputs" element={<OutputsPage />} />
+        <Route path="/installation" element={<InstallationPage />} />
       </Routes>
     // </BrowserRouter>
   );

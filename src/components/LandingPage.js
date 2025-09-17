@@ -74,12 +74,20 @@ function LandingPage() {
       </section> */}
 
       <div className="cta-section">
-        <button 
-          onClick={() => navigate('/app')}
-          className="start-button"
-        >
-          Start Saving Time Now
-        </button>
+        <div className="cta-buttons">
+          <button 
+            onClick={() => navigate('/app')}
+            className="start-button primary"
+          >
+            Start Saving Time Now
+          </button>
+          <button 
+            onClick={() => navigate('/installation')}
+            className="start-button secondary"
+          >
+            Download Desktop App
+          </button>
+        </div>
         {/* <p className="demo-text">No installation required. Works directly in your browser.</p> */}
         <p className="secondary-cta">Try with our sample data to see the magic</p>
       </div>
