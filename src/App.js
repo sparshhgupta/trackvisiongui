@@ -118,7 +118,7 @@ function App() {
   return (
     // <BrowserRouter>
       <Routes>
-        <Route path="/" element={<h1>It Works!</h1>} />
+        <Route path="/" element={<LandingPage />} />
         <Route path="/app" element={<MainApp />} />
         <Route path="/outputs" element={<OutputsPage />} />
       </Routes>
