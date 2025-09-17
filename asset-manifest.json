@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/trackvisiongui/static/css/main.e962ad88.chunk.css",
-    "main.js": "/trackvisiongui/static/js/main.acbf5d7d.chunk.js",
-    "main.js.map": "/trackvisiongui/static/js/main.acbf5d7d.chunk.js.map",
-    "runtime-main.js": "/trackvisiongui/static/js/runtime-main.d1db2d84.js",
-    "runtime-main.js.map": "/trackvisiongui/static/js/runtime-main.d1db2d84.js.map",
+    "main.css": "/trackvisiongui/static/css/main.d1eb478f.chunk.css",
+    "main.js": "/trackvisiongui/static/js/main.5287f8df.chunk.js",
+    "main.js.map": "/trackvisiongui/static/js/main.5287f8df.chunk.js.map",
+    "runtime-main.js": "/trackvisiongui/static/js/runtime-main.06742f21.js",
+    "runtime-main.js.map": "/trackvisiongui/static/js/runtime-main.06742f21.js.map",
     "static/css/2.b71989ea.chunk.css": "/trackvisiongui/static/css/2.b71989ea.chunk.css",
-    "static/js/2.41db4812.chunk.js": "/trackvisiongui/static/js/2.41db4812.chunk.js",
-    "static/js/2.41db4812.chunk.js.map": "/trackvisiongui/static/js/2.41db4812.chunk.js.map",
-    "static/js/3.7820470f.chunk.js": "/trackvisiongui/static/js/3.7820470f.chunk.js",
-    "static/js/3.7820470f.chunk.js.map": "/trackvisiongui/static/js/3.7820470f.chunk.js.map",
+    "static/js/2.41e604a9.chunk.js": "/trackvisiongui/static/js/2.41e604a9.chunk.js",
+    "static/js/2.41e604a9.chunk.js.map": "/trackvisiongui/static/js/2.41e604a9.chunk.js.map",
+    "static/js/3.2f287ff1.chunk.js": "/trackvisiongui/static/js/3.2f287ff1.chunk.js",
+    "static/js/3.2f287ff1.chunk.js.map": "/trackvisiongui/static/js/3.2f287ff1.chunk.js.map",
     "index.html": "/trackvisiongui/index.html",
-    "precache-manifest.5ce09b27b2b691ddc692450b0e6a1de3.js": "/trackvisiongui/precache-manifest.5ce09b27b2b691ddc692450b0e6a1de3.js",
+    "precache-manifest.9e4c5f6f2ce62a9abe16cedda015a2a6.js": "/trackvisiongui/precache-manifest.9e4c5f6f2ce62a9abe16cedda015a2a6.js",
     "service-worker.js": "/trackvisiongui/service-worker.js",
     "static/css/2.b71989ea.chunk.css.map": "/trackvisiongui/static/css/2.b71989ea.chunk.css.map",
-    "static/css/main.e962ad88.chunk.css.map": "/trackvisiongui/static/css/main.e962ad88.chunk.css.map",
-    "static/js/2.41db4812.chunk.js.LICENSE.txt": "/trackvisiongui/static/js/2.41db4812.chunk.js.LICENSE.txt"
+    "static/css/main.d1eb478f.chunk.css.map": "/trackvisiongui/static/css/main.d1eb478f.chunk.css.map",
+    "static/js/2.41e604a9.chunk.js.LICENSE.txt": "/trackvisiongui/static/js/2.41e604a9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d1db2d84.js",
+    "static/js/runtime-main.06742f21.js",
     "static/css/2.b71989ea.chunk.css",
-    "static/js/2.41db4812.chunk.js",
-    "static/css/main.e962ad88.chunk.css",
-    "static/js/main.acbf5d7d.chunk.js"
+    "static/js/2.41e604a9.chunk.js",
+    "static/css/main.d1eb478f.chunk.css",
+    "static/js/main.5287f8df.chunk.js"
   ]
 }
