@@ -116,13 +116,13 @@ function MainApp() {
 
 function App() {
   return (
-    <BrowserRouter>
+    // <BrowserRouter>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/" element={<h1>It Works!</h1>} />
         <Route path="/app" element={<MainApp />} />
         <Route path="/outputs" element={<OutputsPage />} />
       </Routes>
-    </BrowserRouter>
+    // </BrowserRouter>
   );
 }
 
