@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f788be4aa4b1c3b50a1e1926152bd114",
+    "revision": "28d4719edd4455a2d1ad331bf71f16b3",
     "url": "/trackvisiongui/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/trackvisiongui/static/css/2.b71989ea.chunk.css"
   },
   {
-    "revision": "220a05fcbed2b91a450b",
+    "revision": "74a08377b90222728e04",
     "url": "/trackvisiongui/static/css/main.13e2e6ea.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/trackvisiongui/static/js/3.2f287ff1.chunk.js"
   },
   {
-    "revision": "220a05fcbed2b91a450b",
-    "url": "/trackvisiongui/static/js/main.7565b99a.chunk.js"
+    "revision": "74a08377b90222728e04",
+    "url": "/trackvisiongui/static/js/main.8b4a5f19.chunk.js"
   },
   {
     "revision": "b7d726fd81a9847ec1be",
