@@ -28,8 +28,8 @@ function InstallationPage() {
       icon: '🍎',
       version: 'Intel & Apple Silicon',
       filename: 'TrackVision-macOS-Universal.dmg',
-      size: '98 MB',
-      url: 'https://releases.trackvision.com/v1.2.0/TrackVision-macOS-Universal.dmg'
+      size: '84 MB',
+      url: 'https://drive.google.com/uc?export=download&id=1iGeRAdBaElW3ZaNOU2BMepjIsAByNjZ5'
     },
     {
       os: 'Ubuntu/Debian',
