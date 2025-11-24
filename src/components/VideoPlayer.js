@@ -29,7 +29,7 @@
 
 //   const fetchFrameNumbers = async () => {
 //     try {
-//       const response = await axios.get('http://127.0.0.1:5000/get-frame-numbers');
+//       const response = await axios.get('http://localhost:5000/get-frame-numbers');
 //       if (response.data.end_frames && response.data.track_ids) {
 //         setFrameData({
 //           frames: response.data.end_frames,
@@ -49,7 +49,7 @@
 //       formData.append('video', file);
 
 //       try {
-//         const response = await axios.post('http://127.0.0.1:5000/upload-video', formData, {
+//         const response = await axios.post('http://localhost:5000/upload-video', formData, {
 //           headers: {
 //             'Content-Type': 'multipart/form-data',
 //           },
@@ -72,7 +72,7 @@
 
 //   const startMjpegStream = () => {
 //     const timestamp = Date.now();
-//     setStreamSrc(`http://127.0.0.1:5000/mjpeg-stream?t=${timestamp}`);
+//     setStreamSrc(`http://localhost:5000/mjpeg-stream?t=${timestamp}`);
 //     setIsStreaming(true);
     
 //     // Start periodic frame updates to track current frame
@@ -86,7 +86,7 @@
 //     // Poll backend for current frame information
 //     frameUpdateInterval.current = setInterval(async () => {
 //       try {
-//         const response = await axios.get('http://127.0.0.1:5000/current-frame');
+//         const response = await axios.get('http://localhost:5000/current-frame');
 //         if (response.data.current_frame !== undefined && response.data.current_frame !== null) {
 //           setCurrentFrame(response.data.current_frame);
 //           updateCurrentFrameIndex(response.data.current_frame);
@@ -126,7 +126,7 @@
     
 //     setIsProcessing(true);
 //     try {
-//       const response = await axios.post('http://127.0.0.1:5000/toggle-playback');
+//       const response = await axios.post('http://localhost:5000/toggle-playback');
 //       if (response.data.success) {
 //         setIsStreaming(response.data.is_playing);
 //         if (response.data.is_playing) {
@@ -150,7 +150,7 @@
 //       // Stop tracking before seeking
 //       stopFrameTracking();
       
-//       const response = await axios.post('http://127.0.0.1:5000/seek-frame', {
+//       const response = await axios.post('http://localhost:5000/seek-frame', {
 //         frame: frame
 //       });
       
@@ -187,14 +187,14 @@
 //   const refreshStream = () => {
 //     if (streamRef.current) {
 //       const timestamp = Date.now();
-//       const baseUrl = `http://127.0.0.1:5000/mjpeg-stream`;
+//       const baseUrl = `http://localhost:5000/mjpeg-stream`;
 //       streamRef.current.src = `${baseUrl}?t=${timestamp}`;
 //     }
 //   };
 
 //   const handleSaveId = async () => {
 //     try {
-//       const response = await axios.post('http://127.0.0.1:5000/update-id', {
+//       const response = await axios.post('http://localhost:5000/update-id', {
 //         currentFrame: currentFrame,
 //         currentId: currentId,
 //         newId: newId,
@@ -493,7 +493,7 @@ function VideoPlayer({ csvFile }) {
 
   const fetchFrameNumbers = async () => {
     try {
-      const response = await axios.get('http://127.0.0.1:5000/get-frame-numbers');
+      const response = await axios.get('http://localhost:5000/get-frame-numbers');
       if (response.data.end_frames && response.data.track_ids) {
         setFrameData({
           frames: response.data.end_frames,
@@ -523,7 +523,7 @@ function VideoPlayer({ csvFile }) {
     formData.append('video', file);
 
     try {
-      const response = await axios.post('http://127.0.0.1:5000/upload-video', formData, {
+      const response = await axios.post('http://localhost:5000/upload-video', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
@@ -556,7 +556,7 @@ function VideoPlayer({ csvFile }) {
 
   const startMjpegStream = () => {
     const timestamp = Date.now();
-    setStreamSrc(`http://127.0.0.1:5000/mjpeg-stream?t=${timestamp}`);
+    setStreamSrc(`http://localhost:5000/mjpeg-stream?t=${timestamp}`);
     setIsStreaming(true);
     
     // Start periodic frame updates to track current frame
@@ -570,7 +570,7 @@ function VideoPlayer({ csvFile }) {
     // Poll backend for current frame information
     frameUpdateInterval.current = setInterval(async () => {
       try {
-        const response = await axios.get('http://127.0.0.1:5000/current-frame');
+        const response = await axios.get('http://localhost:5000/current-frame');
         if (response.data.current_frame !== undefined && response.data.current_frame !== null) {
           setCurrentFrame(response.data.current_frame);
           updateCurrentFrameIndex(response.data.current_frame);
@@ -610,7 +610,7 @@ function VideoPlayer({ csvFile }) {
     
     setIsProcessing(true);
     try {
-      const response = await axios.post('http://127.0.0.1:5000/toggle-playback');
+      const response = await axios.post('http://localhost:5000/toggle-playback');
       if (response.data.success) {
         setIsStreaming(response.data.is_playing);
         if (response.data.is_playing) {
@@ -635,7 +635,7 @@ function VideoPlayer({ csvFile }) {
       // Stop tracking before seeking
       stopFrameTracking();
       
-      const response = await axios.post('http://127.0.0.1:5000/seek-frame', {
+      const response = await axios.post('http://localhost:5000/seek-frame', {
         frame: frame
       });
       
@@ -673,14 +673,14 @@ function VideoPlayer({ csvFile }) {
   const refreshStream = () => {
     if (streamRef.current) {
       const timestamp = Date.now();
-      const baseUrl = `http://127.0.0.1:5000/mjpeg-stream`;
+      const baseUrl = `http://localhost:5000/mjpeg-stream`;
       streamRef.current.src = `${baseUrl}?t=${timestamp}`;
     }
   };
 
   const handleSaveId = async () => {
     try {
-      const response = await axios.post('http://127.0.0.1:5000/update-id', {
+      const response = await axios.post('http://localhost:5000/update-id', {
         currentFrame: currentFrame,
         currentId: currentId,
         newId: newId,
