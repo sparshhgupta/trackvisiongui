@@ -20,8 +20,8 @@ function InstallationPage() {
       icon: '🪟',
       version: '11/10/8',
       filename: 'TrackVision-Setup-Windows.exe',
-      size: '124 MB',
-      url: 'https://drive.google.com/uc?export=download&id=17QnycGIJuwG9kJ0HWhODuq-xCAfGSjCq'
+      size: '114.5 MB',
+      url: 'https://github.com/sparshhgupta/trackvisionserver/releases/download/v1.0.0/trackvision-server-windows.zip'
     },
     {
       os: 'macOS',
