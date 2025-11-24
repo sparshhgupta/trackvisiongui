@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/trackvisiongui/static/css/main.d1eb478f.chunk.css",
-    "main.js": "/trackvisiongui/static/js/main.abbff84b.chunk.js",
-    "main.js.map": "/trackvisiongui/static/js/main.abbff84b.chunk.js.map",
+    "main.css": "/trackvisiongui/static/css/main.13e2e6ea.chunk.css",
+    "main.js": "/trackvisiongui/static/js/main.7565b99a.chunk.js",
+    "main.js.map": "/trackvisiongui/static/js/main.7565b99a.chunk.js.map",
     "runtime-main.js": "/trackvisiongui/static/js/runtime-main.06742f21.js",
     "runtime-main.js.map": "/trackvisiongui/static/js/runtime-main.06742f21.js.map",
     "static/css/2.b71989ea.chunk.css": "/trackvisiongui/static/css/2.b71989ea.chunk.css",
@@ -11,17 +11,17 @@
     "static/js/3.2f287ff1.chunk.js": "/trackvisiongui/static/js/3.2f287ff1.chunk.js",
     "static/js/3.2f287ff1.chunk.js.map": "/trackvisiongui/static/js/3.2f287ff1.chunk.js.map",
     "index.html": "/trackvisiongui/index.html",
-    "precache-manifest.1251e4f8a1c884d15ff0285ddac6c73f.js": "/trackvisiongui/precache-manifest.1251e4f8a1c884d15ff0285ddac6c73f.js",
+    "precache-manifest.88ab0806e31c42c8bdbf8a88086e3471.js": "/trackvisiongui/precache-manifest.88ab0806e31c42c8bdbf8a88086e3471.js",
     "service-worker.js": "/trackvisiongui/service-worker.js",
     "static/css/2.b71989ea.chunk.css.map": "/trackvisiongui/static/css/2.b71989ea.chunk.css.map",
-    "static/css/main.d1eb478f.chunk.css.map": "/trackvisiongui/static/css/main.d1eb478f.chunk.css.map",
+    "static/css/main.13e2e6ea.chunk.css.map": "/trackvisiongui/static/css/main.13e2e6ea.chunk.css.map",
     "static/js/2.41e604a9.chunk.js.LICENSE.txt": "/trackvisiongui/static/js/2.41e604a9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.06742f21.js",
     "static/css/2.b71989ea.chunk.css",
     "static/js/2.41e604a9.chunk.js",
-    "static/css/main.d1eb478f.chunk.css",
-    "static/js/main.abbff84b.chunk.js"
+    "static/css/main.13e2e6ea.chunk.css",
+    "static/js/main.7565b99a.chunk.js"
   ]
 }

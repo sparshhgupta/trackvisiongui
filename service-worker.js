@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/trackvisiongui/precache-manifest.1251e4f8a1c884d15ff0285ddac6c73f.js"
+  "/trackvisiongui/precache-manifest.88ab0806e31c42c8bdbf8a88086e3471.js"
 );
 
 self.addEventListener('message', (event) => {
